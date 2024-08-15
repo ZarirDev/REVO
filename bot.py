@@ -4,7 +4,8 @@ import sqlite3
 import keygenerator
 import getKey
 
-haveAccess=[763742512736108565]
+#Add discord user id in the list below to have
+haveAccess=[]
 
 db=sqlite3.connect("./data.db")
 cur=db.cursor()
